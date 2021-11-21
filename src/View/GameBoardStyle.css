@@ -1,0 +1,15 @@
+Pane:hover{
+
+    -fx-border-color: #BCD979;
+
+}
+
+VBox{
+    -fx-background-color: #648767;
+}
+
+Label{
+
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}

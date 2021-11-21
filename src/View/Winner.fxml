@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="Menu" alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="348.0" spacing="100.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WinnerController">
+   <children>
+      <Label fx:id="scoreLabel" alignment="CENTER" prefHeight="20.0" prefWidth="143.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nickInput" promptText="type your nick here" />
+      <Button mnemonicParsing="false" onMouseClicked="#submitScore" text="Submit" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" top="25.0" />
+   </padding>
+</VBox>
