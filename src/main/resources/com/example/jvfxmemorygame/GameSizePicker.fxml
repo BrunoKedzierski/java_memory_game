@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="picker" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="247.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jvfxmemorygame.PickerController">
+   <children>
+      <Label fx:id="header" text="Choose Game Size" textFill="WHITE">
+         <font>
+            <Font name="Candara Bold" size="19.0" />
+         </font></Label>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="247.0" spacing="10.0">
+         <children>
+            <TextField fx:id="width" prefWidth="35.0" />
+            <Label text="X" />
+            <TextField fx:id="height" prefWidth="35.0" />
+         </children>
+      </HBox>
+      <Button fx:id="start" mnemonicParsing="false" onMouseClicked="#ClickStart" text="Start" />
+      <Label fx:id="errorPrompt" text="Incorrect input, type numbers between 4 - 28" textFill="RED" visible="false">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
